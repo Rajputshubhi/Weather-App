@@ -1,0 +1,52 @@
+body{
+	background:url("https://cdn.pixabay.com/photo/2018/01/23/12/00/field-3101302_960_720.jpg");
+	width:100%;
+	height:100vh;
+    background-repeat:no-repeat;
+    
+}`
+.center_div{
+	margin-left:290px;
+    margin-top:50px;
+	width:25%;
+    height:300px;
+	box-shadow:0px 4px 4px 0px white;
+
+}
+.row{
+	box-shadow:0px 4px 4px 0px white;
+
+
+}
+.cc_div{
+	width:50%;
+	margin-top:80px;
+}
+input{
+	margin-left:90px;
+}
+.head_div{
+	text-align:center;
+	font-family:verdana;
+}
+.searching{
+	font-size:1.5em;
+	padding-top:12px;
+	font-family:sans-serif;
+	color:white;
+}
+.days-div{
+	display:flex;
+	width:100%;
+
+}
+
+@media screen and (max-width:480px){
+	body{
+		background-color:url("https://cdn.pixabay.com/photo/2014/11/16/15/15/field-533541_960_720.jpg");
+	}
+	input{
+		width:100%;
+		
+	}
+}
